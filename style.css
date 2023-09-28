@@ -1,0 +1,30 @@
+.text-cent{ 
+    font-size: 50px;
+    text-align: center;
+    font-family: "Wade Sans Light Regular";
+    font-weight: bolder;
+}
+
+.subtext{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Wade Sans Light Regular";
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "Wade Sans Light Regular";
+    src: url('/assets/Wade\ Sans\ Light\ Regular.ttf') format('truetype');
+  }
+
+  h2{
+    text-align:left;
+    display: flex;
+    font-family: "Wade Sans Light Regular";
+    font-weight: bolder;
+    margin-right: 650px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 170px;
+    margin-bottom: 10px;
+  }
