@@ -3,6 +3,7 @@
     text-align: center;
     font-family: "Wade Sans Light Regular";
     font-weight: bolder;
+    color: white;
 }
 
 .subtext{
@@ -10,6 +11,7 @@
     text-align: center;
     font-family: "Wade Sans Light Regular";
     font-weight: bolder;
+    color: whitesmoke;
 }
 
 @font-face {
@@ -17,14 +19,18 @@
     src: url('/assets/Wade\ Sans\ Light\ Regular.ttf') format('truetype');
   }
 
-  h2{
+  p{
     text-align:left;
     display: flex;
     font-family: "Wade Sans Light Regular";
     font-weight: bolder;
-    margin-right: 650px;
-    margin-left: 30px;
-    font-size: 20px;
-    margin-top: 170px;
-    margin-bottom: 10px;
+    color: white;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1614851099511-773084f6911d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb3JmdWwlMjBibHVyfGVufDB8fDB8fHww&w=1000&q=80) no-repeat center center fixed;
+    background-size: cover;
   }
