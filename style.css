@@ -58,4 +58,21 @@
       list-style-type: none;
     }
 
-   
+    .nav-pills .nav-link {
+      font-size: 40px; 
+      padding: 10px 20px; 
+      margin-right: 10px; 
+      justify-content: center;
+  }
+
+  p{ 
+    text-indent: 50px;
+  }
+
+  h1{ 
+    font-family: "Wade Sans Light Regular";
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+  }
+ 
